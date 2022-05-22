@@ -6,9 +6,13 @@ Must have node,npm,truffle,ganache,mongo DB set up, REST Api client,Metamask wal
 
 Go to the project directory and execute below commands in same order:
 run ganache - Copy the blockchain netwrok details to truffle.config.js at host,port, network id: '*'  to connect.
+
 npm install - install all dependencies in package.json.
+
 truffle migrate - to execute the migrate scripts of smart contracts.
+
 truffle deploy - to compile and deploy the smart contracts for deploying & minting the NFTs.
+
 npm start - to run the application.
 
 
